@@ -1,16 +1,18 @@
 <template>
-    <div class="header row">
-        <div class="col-md-6">
-            <div class="logo">
-                <h1>Tom Fyles Web Developer</h1>
+    <div class="header">
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="logo">
+                    <h1>Tom Fyles Web Developer</h1>
+                </div>
             </div>
-        </div>
-        <div class="col-md-6">
-            <div class="nav">
-                <router-link to="/">Home</router-link>
-                <router-link to="/projects">Projects</router-link>
-                <router-link to="/cv">CV</router-link>
-                <router-link to="/contact">Contact</router-link>
+            <div class="col-xs-6">
+                <div class="nav">
+                    <router-link to="/">Home</router-link>
+                    <router-link to="/projects">Projects</router-link>
+                    <router-link to="/cv">CV</router-link>
+                    <router-link to="/contact">Contact</router-link>
+                </div>
             </div>
         </div>
     </div>
@@ -26,6 +28,7 @@ export default {
 <style scoped lang="scss">
 .header{
     background-color: #31708e;
+    box-shadow: 0 4px 2px -2px #0c3b5b;
 }
 .logo{
     h1{
