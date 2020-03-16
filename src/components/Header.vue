@@ -1,12 +1,12 @@
 <template>
     <div class="header">
         <div class="row">
-            <div class="col-xs-6">
+            <!-- <div class="col-xs-6">
                 <div class="logo">
                     <h1>Tom Fyles Web Developer</h1>
                 </div>
-            </div>
-            <div class="col-xs-6">
+            </div> -->
+            <div class="col-xs-12">
                 <div class="nav">
                     <router-link to="/">Home</router-link>
                     <router-link to="/projects">Projects</router-link>
@@ -40,7 +40,7 @@ export default {
 }
 .nav {
   padding: 30px;
-  text-align: right;
+//   text-align: right;
   a {
     font-weight: bold;
     color: #f7f9fb;

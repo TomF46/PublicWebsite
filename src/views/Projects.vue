@@ -1,6 +1,7 @@
 <template>
   <div class="projects">
-    <p>Project page</p>
+    <p>Appathemtatics details</p>
+    <p>Craftit details</p>
   </div>
 </template>
 
