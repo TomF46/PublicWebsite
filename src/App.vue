@@ -40,6 +40,10 @@ export default {
   max-width: 100vw;
 }
 
+html{
+  background-color: #f7f9fb;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -53,7 +57,7 @@ body, #app{
 .page-title{
     font-size: 2em;
   }
-  
+
 .fade-enter-active,
 .fade-leave-active {
   transition-duration: 0.3s;
