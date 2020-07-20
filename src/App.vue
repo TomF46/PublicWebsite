@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" :style="variablePageStyles">
     <navigation-header></navigation-header>
     <transition name="fade" mode="out-in" >
       <router-view></router-view>
@@ -17,6 +17,14 @@ export default {
   data: function() {
     return {
     };
+  },
+  computed: {
+    variablePageStyles(){
+
+      return {
+        'background-color' : this.$store.state.backgroundColour
+      }
+    }
   },
   mounted(){
     
@@ -38,12 +46,14 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
-body{
+body, #app{
   margin: 0px;
-  background-color: #f7f9fb;
   min-height: 100vh;
 }
-
+.page-title{
+    font-size: 2em;
+  }
+  
 .fade-enter-active,
 .fade-leave-active {
   transition-duration: 0.3s;

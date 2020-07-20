@@ -15,17 +15,36 @@
           </p>
         </div>
       </div>
+      <div class="row center-xs">
+        <div class="col-xs-8">
+          <button @click="navigate('/projects')">View Projects</button>
+        </div>
+        <div class="col-xs-8">
+          <button @click="navigate('/cv')">View CV</button>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Home'
+  name: 'Home',
+  methods:{
+    navigate(link){
+      this.$router.push(link)
+    }
+  }
 }
 </script>
 
 <style lang="scss">
+
+.home{
+
+h1,h2,h3,h4,h5, p , a{
+  color: #f7f9fb;
+}
 
 .home-logo{
   h1{
@@ -35,6 +54,23 @@ export default {
       font-size: 2.5rem;
     };
   }
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #eee;
+    background-color: #eee;
+    cursor: pointer;
+    color: #31708e;
+    font-size: 1.25em;
+    min-width: 200px;
+}
+
+button:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
 }
 
 </style>

@@ -10,8 +10,7 @@
                 <div class="nav">
                     <router-link to="/">Home</router-link>
                     <router-link to="/projects">Projects</router-link>
-                    <router-link to="/cv">CV</router-link>
-                    <router-link to="/contact">Contact</router-link>
+                    <router-link to="/cv">CV and more</router-link>
                 </div>
             </div>
         </div>
