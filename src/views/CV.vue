@@ -10,10 +10,10 @@
         <p class="section-title">Download my Cv</p>
       </div>
       <div class="col-xs-12">
-        <button @click="download('/static/downloads/ThomasFylesCv.docx')">Download DOCX</button>
+        <button @click="externalNavigate('https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/ThomasFylesCv.docx')" download>Download DOCX</button>
       </div>
       <div class="col-xs-12">
-        <button @click="download('/static/downloads/ThomasFylesCv.pdf')">Download PDF</button>
+        <button @click="externalNavigate('https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/ThomasFylesCv.pdf')" download>Download PDF</button>
       </div>
     </div>
     <div class="row center-xs">
