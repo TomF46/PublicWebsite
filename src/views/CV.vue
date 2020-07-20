@@ -1,13 +1,28 @@
 <template>
   <div class="cv">
-    <div class="row center-xs">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 pane">
+        <div class="col-xs-12">
+          <h1>About</h1>
+        </div>
+        <div class="col-xs-12">
+          <p class="left-align">
+            Im Tom a Web application developer with multi year experience in developing applications using .NET and cutting edge modern front end technologies and frameworks (e.g. VueJs, ES6 Javascript, HTML5, CSS3). Keen interest in the implementation of the latest browser/ front end features to create the best possible interfaces and experience for users as the web evolves. <br><br>
+            I have worked with and take an intrest in the use of PWA and Hybrid web apps to produce native like mobile experiences for users and have worked on apps that have been released on both the Apple App store and google play store and have a good understanding of the processes required to release an application to the public and following the app store processes <br><br>
+            I also have knowledge in a range of AWS services and how to use these to host websites, store files and data and run web services to support applications. Services i have heavily used include, S3, Amplify, Lambda , and Route53 and a number of these have been used in the projects on my projects page. <br><br>
+            Outside of development i play as a forward for a field hockey team in my home town, play the bass guitar and badly play the electric guitar.
+          </p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 pane border-left">
+        <div class="row center-xs">
       <div class="col-xs-12">
         <h1>CV</h1>
       </div>
     </div>
     <div class="row section">
       <div class="col-xs-12">
-        <p class="section-title">Download my Cv</p>
+        <p class="section-title">Download my CV</p>
       </div>
       <div class="col-xs-12">
         <button @click="externalNavigate('https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/ThomasFylesCv.docx')" download>Download DOCX</button>
@@ -29,10 +44,14 @@
           <div class="col-xs-12">
             <button @click="externalNavigate('mailto:fyles1994@outlook.com')">Email</button>
           </div>
+          <div class="col-xs-12">
+            <button @click="externalNavigate('tel:07432112574')">Mobile</button>
+          </div>
         </div>
       </div>
     </div>
-    <br>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -41,9 +60,6 @@ export default {
   name: 'CV',
   methods:{
     externalNavigate(link){
-      window.location.href = link;
-    },
-    download(link){
       window.location.href = link;
     }
   }
@@ -62,6 +78,11 @@ export default {
     color: #eee;
     font-size: 1.25em;
     min-width: 200px;
+    border-radius: 5px;
+  }
+
+  .border-left{
+    border-left: 1px solid lightgray;
   }
 
   .left-align{

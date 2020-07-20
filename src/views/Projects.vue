@@ -81,7 +81,10 @@ export default {
     max-width: 60%;
     margin: 40px;
     border-radius: 16px;
-    border: 1px solid lightgray
+    border: 1px solid lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 }
 
