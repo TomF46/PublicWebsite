@@ -66,8 +66,11 @@ export default {
     .intro-copy{
         display: none;
     }
-    .home-logo h1{
-        line-height: 5rem;
+    .home-logo{
+    padding-top: 5vh;
+        h1{
+            line-height: 5rem;
+        }
     }
 }
 
