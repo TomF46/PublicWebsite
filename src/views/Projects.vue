@@ -78,7 +78,7 @@ export default {
     text-decoration: underline;
   }
   .project-image{
-    max-width: 60%;
+    max-width: 80%;
     margin: 40px;
     border-radius: 16px;
     border: 1px solid lightgray;
@@ -91,6 +91,12 @@ export default {
   }
   a:hover{
     color: #31708e;
+  }
+
+  @media (max-width: 47em) {
+    .project-image{
+      max-width: 100%;
+    }
   }
 }
 

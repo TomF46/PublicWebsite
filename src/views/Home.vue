@@ -66,6 +66,9 @@ export default {
     .intro-copy{
         display: none;
     }
+    .home-logo h1{
+        line-height: 5rem;
+    }
 }
 
 }

@@ -27,6 +27,9 @@
             <button @click="externalNavigate('https://www.linkedin.com/in/tomfyles/')">LinkedIn</button>
           </div>
           <div class="col-xs-12">
+            <button @click="externalNavigate('https://github.com/TomF46')">Github</button>
+          </div>
+          <div class="col-xs-12">
             <button @click="externalNavigate('mailto:fyles1994@outlook.com')">Email</button>
           </div>
           <div class="col-xs-12">
@@ -53,6 +56,7 @@ export default {
 
 <style lang="scss">
 .contact{
+  padding-bottom: 20px;
   .card{
     margin-bottom: 20px;
   }
