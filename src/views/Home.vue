@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home page blue-background">
     <div class="home-logo">
       <div class="row">
         <div class="col-xs-12">
@@ -17,10 +17,13 @@
       </div>
       <div class="row center-xs">
         <div class="col-xs-8">
-          <button @click="navigate('/projects')">View Projects</button>
+          <button @click="scrollToHash('#projects-section')">View Projects</button>
         </div>
         <div class="col-xs-8">
-          <button @click="navigate('/cv')">View CV</button>
+          <button @click="externalNavigate('https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/ThomasFylesCv.pdf')" download>Download CV</button>
+        </div>
+        <div class="col-xs-8">
+          <button @click="scrollToHash('#contact-page')">Find out more</button>
         </div>
       </div>
     </div>
@@ -33,6 +36,13 @@ export default {
   methods:{
     navigate(link){
       this.$router.push(link)
+    },
+    scrollToHash(hash){
+      window.location.hash = '';
+      window.location.hash = hash;
+    },
+    externalNavigate(link){
+      window.location.href = link;
     }
   }
 }
@@ -41,12 +51,8 @@ export default {
 <style lang="scss">
 
 .home{
-
-h1,h2,h3,h4,h5, p , a{
-  color: #f7f9fb;
-}
-
 .home-logo{
+    padding-top: 10vh;
   h1{
     font-size: 5rem;
     line-height: 4rem;
@@ -54,21 +60,6 @@ h1,h2,h3,h4,h5, p , a{
       font-size: 2.5rem;
     };
   }
-}
-
-button{
-    margin-top: 20px;
-    padding: 10px;
-    border: 1px solid #eee;
-    background-color: #eee;
-    cursor: pointer;
-    color: #31708e;
-    font-size: 1.25em;
-    min-width: 200px;
-}
-
-button:hover{
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 }

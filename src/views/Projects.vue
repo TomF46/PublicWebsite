@@ -1,6 +1,6 @@
 <template>
-  <div class="projects">
-    <div class="row center-xs">
+  <div id="projects-section" class="projects page">
+    <div class="row  center-xs">
       <div class="col-xs-12">
         <h1 class="page-title">Projects</h1>
       </div>

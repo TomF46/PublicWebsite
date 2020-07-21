@@ -1,9 +1,7 @@
 <template>
-  <div id="app" :style="variablePageStyles">
-    <navigation-header></navigation-header>
-    <transition name="fade" mode="out-in" >
+  <div id="app">
+      <navigation-header></navigation-header>
       <router-view></router-view>
-    </transition>
   </div>
 </template>
 
@@ -19,12 +17,6 @@ export default {
     };
   },
   computed: {
-    variablePageStyles(){
-
-      return {
-        'background-color' : this.$store.state.backgroundColour
-      }
-    }
   },
   mounted(){
     
@@ -42,6 +34,8 @@ export default {
 
 html{
   background-color: #f7f9fb;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 #app {
@@ -55,19 +49,46 @@ body, #app{
   min-height: 100vh;
 }
 .page-title{
-    font-size: 2em;
+  font-size: 2.5em;
+  margin: 1em 0;
+}
+
+.page{
+  min-height: 100vh;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  background-color: #eee;
+  p{
+    color: #000!important;
+  }
+}
+
+.blue-background{
+  background-color: #31708e;
+
+  h1,h2,h3,h4,h5, p , a{
+    color: #f7f9fb;
   }
 
-.fade-enter-active,
-.fade-leave-active {
-  transition-duration: 0.3s;
-  transition-property: opacity;
-  transition-timing-function: ease;
-}
+  button{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #eee;
+    background-color: #31708e;
+    cursor: pointer;
+    color: #eee;
+    font-size: 1.25em;
+    min-width: 200px;
+    border-radius: 100px;
+  }
 
-.fade-enter,
-.fade-leave-active {
-  opacity: 0
-}
+  button:hover{
+    background-color: #eee;
+    color: #31708e;
+  }
 
+}
 </style>
