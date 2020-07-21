@@ -10,7 +10,7 @@
     <div class="home-body">
       <div class="row center-xs">
         <div class="col-xs-8">
-          <p>
+          <p class="intro-copy">
             Web application developer with multi year experience in developing applications using .NET and cutting edge modern front end technologies and frameworks (e.g. VueJs, ES6 Javascript, HTML5, CSS3). Keen interest in the implementation of the latest browser/ front end features to create the best possible interfaces and experience for users as the web evolves.
           </p>
         </div>
@@ -60,6 +60,12 @@ export default {
       font-size: 2.5rem;
     };
   }
+}
+
+@media (max-width: 47em) {
+    .intro-copy{
+        display: none;
+    }
 }
 
 }

@@ -12,8 +12,8 @@
             <p class="title">{{project.name}}</p>
           </div>
           <div class="col-xs-12">
-            <a v-if="project.link != null" :href="project.link">Link to project</a><br>
-            <a v-if="project.githubLink != null" :href="project.githubLink">Link to Github page</a>
+            <a v-if="project.link != null" :href="project.link">Project website</a><br>
+            <a v-if="project.githubLink != null" :href="project.githubLink">Github page</a>
           </div>
           <div class="col-xs-12">
             <p>{{project.description}}</p>
@@ -43,7 +43,7 @@ export default {
           "image" : "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/storyline.PNG"
         },
         {
-          "name": "Appathemtatics", 
+          "name": "Appathematics", 
           "link": "https://appathematics.tomfylesdev.com/",
           "githubLink": "https://github.com/TomF46/Appathematics", 
           "description": `Appathemtatics is a mobile first progressive web app designed to gameify basic maths skills for children, race against the clock to set new high scores and try to complete
@@ -85,6 +85,12 @@ export default {
     margin-left: auto;
     margin-right: auto;
     display: block;
+  }
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    color: #31708e;
   }
 }
 

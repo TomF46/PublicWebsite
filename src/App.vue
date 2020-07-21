@@ -28,10 +28,6 @@ export default {
 /* Import flexgrid css during build */
 @import '../node_modules/flexboxgrid/dist/flexboxgrid.min.css';
 
-.row{
-  max-width: 100vw;
-}
-
 html{
   background-color: #f7f9fb;
   overflow-x: hidden;
