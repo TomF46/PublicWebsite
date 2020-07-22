@@ -1,17 +1,12 @@
 <template>
   <div id="app">
-      <navigation-header></navigation-header>
       <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Header from './components/Header'
 export default {
   name: 'app',
-  components:{
-    "navigation-header" : Header
-  },
   data: function() {
     return {
     };
