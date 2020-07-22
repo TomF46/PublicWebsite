@@ -51,28 +51,29 @@ export default {
 <style lang="scss">
 
 .home{
-.home-logo{
-    padding-top: 10vh;
-  h1{
-    font-size: 5rem;
-    line-height: 4rem;
-    span{
-      font-size: 2.5rem;
-    };
-  }
-}
 
-@media (max-width: 47em) {
-    .intro-copy{
-        display: none;
+  .home-logo{
+      padding-top: 10vh;
+    h1{
+      font-size: 5rem;
+      line-height: 4rem;
+      span{
+        font-size: 2.5rem;
+      };
     }
-    .home-logo{
-    padding-top: 5vh;
-        h1{
-            line-height: 5rem;
-        }
-    }
-}
+  }
+
+  @media (max-width: 47em) {
+      .intro-copy{
+          display: none;
+      }
+      .home-logo{
+      padding-top: 5vh;
+          h1{
+              line-height: 5rem;
+          }
+      }
+  }
 
 }
 
