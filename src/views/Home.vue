@@ -26,6 +26,11 @@
           <button @click="scrollToHash('#contact-page')">Find out more</button>
         </div>
       </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3  col-lg-4 col-lg-offset-4">
+          <img class="logo" src="/img/InitialsLogoAlternate.svg" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -61,6 +66,11 @@ export default {
         font-size: 2.5rem;
       };
     }
+  }
+
+  .logo{
+    width: 60%;
+    margin: 0 auto;
   }
 
   @media (max-width: 47em) {
