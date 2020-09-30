@@ -7,17 +7,21 @@
     </div>
     <div v-for="(project, i) in projects" :key="i" class="row project-row">
       <div class="col-xs-12 col-md-6">
-        <div class="row">
+        <div class="row project-info">
           <div class="col-xs-12">
-            <p class="title">{{project.name}}</p>
+            <p class="title">{{ project.name }}</p>
           </div>
           <div class="col-xs-12">
-            <a v-if="project.link != null" :href="project.link">Project website</a>
+            <a v-if="project.link != null" :href="project.link"
+              >Project website</a
+            >
             <br />
-            <a v-if="project.githubLink != null" :href="project.githubLink">Github page</a>
+            <a v-if="project.githubLink != null" :href="project.githubLink"
+              >Github page</a
+            >
           </div>
           <div class="col-xs-12">
-            <p>{{project.description}}</p>
+            <p>{{ project.description }}</p>
           </div>
         </div>
       </div>
@@ -82,8 +86,12 @@ export default {
 .projects {
   text-align: left;
   .project-row {
-    margin: 40px;
+    margin: 0px 40px;
     border-bottom: 1px solid lightgray;
+
+    .project-info {
+      margin: 40px 0;
+    }
   }
   .title {
     font-size: 1.4em;
