@@ -1,3 +1,3 @@
 # Personal website
 
-Work in progress
+Personal website hosted at [TomFylesDev.com](https://www.tomfylesdev.com/)

@@ -68,13 +68,22 @@ export default {
             "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/craftitapi.PNG",
         },
         {
-          name: "Work in progress - Leaugue Administration App",
+          name: "League Administration App",
           link: null,
           githubLink: "https://github.com/TomF46/LeagueSite",
-          description: `This work in progress is a hockey (or football) league administration app which includes a .Net Core API and react front end, normal users can view league fixtures, results, and league tables as well as informarion about teams,
-          special admin users can configure all this data in management view. The idea for this demonstration app came about as the websites used by most leagues are pretty bad and i wondered if i could make a better one. This is currently an unfinished work in progress and some of the code will reflect this.`,
+          description: `This is a hockey (or football) league administration app which includes a .Net Core API and react front end, normal users can view league fixtures, results, and league tables as well as informarion about teams,
+          special admin users can configure all this data in management view. The idea for this demonstration app came about as the websites used by most leagues are pretty bad and i wondered if i could make a better one.`,
           image:
             "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/LeagueApp.PNG",
+        },
+        {
+          name: "Untitled quiz app - Link coming soon",
+          link: null,
+          githubLink: "https://github.com/TomF46/UntitledQuizApp",
+          description: `This application consists of a Laravel API and a React frontend and allows users to create quizzes, take other peoples quizzes and more, see the Github ReadMe for a compehensive list. This application was undertaken as i have been learning laravel recently and wanted to do a slightly larger project using it.
+          Link coming soon as i plan to deploy this.`,
+          image:
+            "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/QApp.PNG",
         },
       ];
     },
