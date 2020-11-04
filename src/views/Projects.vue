@@ -77,11 +77,10 @@ export default {
             "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/LeagueApp.PNG",
         },
         {
-          name: "Untitled quiz app - Link coming soon",
-          link: null,
+          name: "Untitled quiz app",
+          link: 'http://54.78.48.16',
           githubLink: "https://github.com/TomF46/UntitledQuizApp",
-          description: `This application consists of a Laravel API and a React frontend and allows users to create quizzes, take other peoples quizzes and more, see the Github ReadMe for a compehensive list. This application was undertaken as i have been learning laravel recently and wanted to do a slightly larger project using it.
-          Link coming soon as i plan to deploy this.`,
+          description: `This application consists of a Laravel API and a React frontend and allows users to create quizzes, take other peoples quizzes and more, see the Github ReadMe for a compehensive list. This application was undertaken as i have been learning laravel recently and wanted to do a slightly larger project using it.`,
           image:
             "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/QApp.PNG",
         },
