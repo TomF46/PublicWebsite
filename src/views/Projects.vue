@@ -39,14 +39,12 @@ export default {
     projects() {
       return [
         {
-          name: "Story idle",
-          link: "https://idle.tomfylesdev.com/",
-          githubLink: "https://github.com/TomF46/StoryIdle",
-          description: `This is a simple take on an idle/incremental game that follows a linear story progression created as a coding exercise as i enjoy playing incremental games. There are a number of
-                stages which are unlocked by getting a specific item unlocked from the shop or as a result of completing previous tasks. Each stage unlocks one or more new tasks with potential new rewards
-                and new items become available in the shop as the game progresses. Please view github for a more technical breakdown`,
+          name: "Untitled quiz app",
+          link: 'http://untitledquizapp.co.uk/',
+          githubLink: "https://github.com/TomF46/UntitledQuizApp",
+          description: `This application consists of a Laravel API and a React frontend and allows users to create quizzes, take other peoples quizzes and more, see the Github ReadMe for a compehensive list. This application was undertaken as i have been learning laravel recently and wanted to do a slightly larger project using it.`,
           image:
-            "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/storyline.PNG",
+            "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/QApp.PNG",
         },
         {
           name: "Appathematics",
@@ -59,13 +57,14 @@ export default {
             "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/appathematics.PNG",
         },
         {
-          name: "Craftit Api",
-          link: null,
-          githubLink: "https://github.com/TomF46/CraftIt",
-          description: `The craftit api is an API designed for use with a ficticious social recipe sharing application, the api covers the creation, editing, and deleting of recipes as well as user management, authentication and permissions.
-          This is a .NET Core API and more information can be found on its github page linked above.`,
+          name: "Story idle",
+          link: "https://idle.tomfylesdev.com/",
+          githubLink: "https://github.com/TomF46/StoryIdle",
+          description: `This is a simple take on an idle/incremental game that follows a linear story progression created as a coding exercise as i enjoy playing incremental games. There are a number of
+                stages which are unlocked by getting a specific item unlocked from the shop or as a result of completing previous tasks. Each stage unlocks one or more new tasks with potential new rewards
+                and new items become available in the shop as the game progresses. Please view github for a more technical breakdown`,
           image:
-            "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/craftitapi.PNG",
+            "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/storyline.PNG",
         },
         {
           name: "League Administration App",
@@ -77,12 +76,13 @@ export default {
             "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/LeagueApp.PNG",
         },
         {
-          name: "Untitled quiz app",
-          link: 'http://untitledquizapp.co.uk/',
-          githubLink: "https://github.com/TomF46/UntitledQuizApp",
-          description: `This application consists of a Laravel API and a React frontend and allows users to create quizzes, take other peoples quizzes and more, see the Github ReadMe for a compehensive list. This application was undertaken as i have been learning laravel recently and wanted to do a slightly larger project using it.`,
+          name: "Craftit Api",
+          link: null,
+          githubLink: "https://github.com/TomF46/CraftIt",
+          description: `The craftit api is an API designed for use with a ficticious social recipe sharing application, the api covers the creation, editing, and deleting of recipes as well as user management, authentication and permissions.
+          This is a .NET Core API and more information can be found on its github page linked above.`,
           image:
-            "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/QApp.PNG",
+            "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/craftitapi.PNG",
         },
       ];
     },
