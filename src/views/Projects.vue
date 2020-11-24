@@ -42,7 +42,7 @@ export default {
           name: "Untitled quiz app",
           link: 'http://untitledquizapp.co.uk/',
           githubLink: "https://github.com/TomF46/UntitledQuizApp",
-          description: `This application consists of a Laravel API and a React frontend and allows users to create quizzes, take other peoples quizzes and more, see the Github ReadMe for a compehensive list. This application was undertaken as i have been learning laravel recently and wanted to do a slightly larger project using it.`,
+          description: `This application consists of a Laravel API and a React frontend and allows users to create quizzes, take other peoples quizzes and more, see the Github ReadMe for a compehensive list. This application was undertaken as i have been learning laravel recently and wanted to do a slightly larger project using it. Note website may not be hosted at all times, let me know if you would like me to host it again via email.`,
           image:
             "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/QApp.PNG",
         },
