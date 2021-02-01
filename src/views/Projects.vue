@@ -23,6 +23,9 @@
           <div class="col-xs-12">
             <p>{{ project.description }}</p>
           </div>
+          <div class="col-xs-12">
+            <button @click="navigate(`/projects/${project.slug}`)">More information</button>
+          </div>
         </div>
       </div>
       <div class="col-xs-12 col-md-6">
@@ -40,6 +43,11 @@ export default {
     return {
       projects: projectsData
     };
+  },
+  methods:{
+    navigate(link){
+      this.$router.push(link)
+    },
   }
 };
 </script>
@@ -50,14 +58,20 @@ export default {
   .project-row {
     margin: 0px 40px;
     border-bottom: 1px solid lightgray;
-
+    
     .project-info {
       margin: 40px 0;
     }
   }
+  .project-row.no-border-b{
+    border-bottom: none;
+  }
   .title {
     font-size: 1.4em;
     text-decoration: underline;
+  }
+  button{
+    display: inline-block;
   }
   .project-image {
     max-width: 80%;

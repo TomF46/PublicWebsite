@@ -44,6 +44,10 @@ body, #app{
   margin: 1em 0;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .page{
   min-height: 100vh;
 }
@@ -56,6 +60,28 @@ body, #app{
     color: #000!important;
   }
 }
+
+.pointer{
+  cursor: pointer;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #eee;
+    background-color: #31708e;
+    cursor: pointer;
+    color: #eee;
+    font-size: 1.25em;
+    min-width: 200px;
+    border-radius: 100px;
+  }
 
 .blue-background{
   background-color: #31708e;
@@ -80,6 +106,5 @@ body, #app{
     background-color: #eee;
     color: #31708e;
   }
-
 }
 </style>
