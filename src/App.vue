@@ -81,7 +81,16 @@ button{
     font-size: 1.25em;
     min-width: 200px;
     border-radius: 100px;
-  }
+}
+
+button:hover{
+  background-color: #2a617b;
+}
+
+
+.square-button{
+  border-radius: 0;
+}
 
 .blue-background{
   background-color: #31708e;
