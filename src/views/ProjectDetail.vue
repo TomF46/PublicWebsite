@@ -14,7 +14,7 @@
     </div>
     <div class="row project-row no-border-b">
       <div class="col-xs-12 col-md-6">
-        <div class="row project-info">
+        <div class="row">
             <div class="col-xs-12 button-row">
             <p class="bold">Links:</p>
             <button class="square-button" v-if="project.link != null" @click="externalNavigate(project.link)"
@@ -101,6 +101,15 @@ export default {
     flex-direction: column;
     color: #fff;
   }
+}
+
+@media (max-width: 47em) {
+    .button-row{
+        button{
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+    }
 }
 
 </style>

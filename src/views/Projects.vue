@@ -93,6 +93,12 @@ export default {
     .project-image {
       max-width: 100%;
     }
+    .title{
+      text-align: center;
+    };
+    button{
+      display: block;
+    }
   }
 }
 </style>
