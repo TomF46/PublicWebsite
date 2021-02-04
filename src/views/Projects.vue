@@ -29,7 +29,7 @@
         </div>
       </div>
       <div class="col-xs-12 col-md-6">
-        <img class="project-image" :src="project.image" />
+        <img class="project-image shadow" :src="project.images[0]" />
       </div>
     </div>
   </div>

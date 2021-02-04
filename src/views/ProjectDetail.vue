@@ -35,8 +35,9 @@
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-md-6">
-        <img class="project-image" :src="project.image" />
+      <div class="col-xs-12 col-md-6 image-column">
+        <p class="bold text-center">Images</p>
+        <img v-for="(image, j) in project.images" :key="j" class="project-image shadow" :src="image" />
       </div>
     </div>
     </div>
@@ -100,6 +101,12 @@ export default {
     align-content: center;
     flex-direction: column;
     color: #fff;
+  }
+}
+
+.image-column{
+  .project-image{
+    margin-top: 20px;
   }
 }
 
