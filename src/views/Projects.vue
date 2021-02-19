@@ -75,6 +75,7 @@ export default {
   }
   .project-image {
     max-width: 80%;
+    max-height: 400px;
     margin: 40px;
     border-radius: 16px;
     border: 1px solid lightgray;
