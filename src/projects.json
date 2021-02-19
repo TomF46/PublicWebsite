@@ -25,7 +25,7 @@
       "slug" : "watchedIt",
       "link": null,
       "githubLink": "https://github.com/TomF46/WatchedIt",
-      "description": "WatchedIT is a simple app where you can find, view and explore films and create a watched list to track the films you have seen. This is inspired by apps such as Letteboxd. The purpose of this application is to learn React Native and how it compares to other tech I have used such as Quasar, Ionic, and Cordova. Due to this I have tried to keep all development concentrated on visible elements such as design and user interaction and decided to mock the data with JSON as opposed to creating a real API though I may add this in the future.",
+      "description": "WatchedIT is a simple app where you can find, view and explore films and create a watched list to track the films you have seen. This is inspired by apps such as Letteboxd. The purpose of this application is to learn React Native and how it compares to other tech I have used such as Quasar, Ionic, and Cordova. Due to this I have tried to keep all development concentrated on visible elements such as design and user interaction and decided to mock the data with JSON as opposed to creating a real API though I may add this in the future. See Github link for Download instructions.",
       "images": [
         "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/WatchedIt.jpg",
         "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/Home.jpg",
