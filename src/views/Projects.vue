@@ -24,7 +24,7 @@
             <p>{{ project.description }}</p>
           </div>
           <div class="col-xs-12">
-            <button class="square-button" @click="navigate(`/projects/${project.slug}`)">More information</button>
+            <button class="button-clear" @click="navigate(`/projects/${project.slug}`)">More information</button>
           </div>
         </div>
       </div>

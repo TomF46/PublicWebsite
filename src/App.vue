@@ -59,7 +59,13 @@ body, #app{
   p{
     color: #000!important;
   }
+  .card-white{
+    background-color: #fefefe;
+  }
 }
+.card.card-white{
+    background-color: #fefefe;
+  }
 
 .pointer{
   cursor: pointer;
@@ -83,8 +89,20 @@ button{
     border-radius: 100px;
 }
 
+button.button-clear{
+    border: 1px solid #31708e;
+    background-color: #f7f9fb;
+    color: #31708e;
+}
+
 button:hover{
   background-color: #2a617b;
+}
+
+button.button-clear:hover{
+    border: 1px solid #eee;
+  background-color: #31708e;
+  color: #eee;
 }
 
 

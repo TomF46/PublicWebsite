@@ -15,28 +15,29 @@
     <div class="row project-row no-border-b">
       <div class="col-xs-12 col-md-6">
         <div class="row">
-            <div class="col-xs-12 button-row">
-            <p class="bold">Links:</p>
-            <button class="square-button" v-if="project.link != null" @click="externalNavigate(project.link)"
+          <div class="col-xs-12 button-row">
+            <!-- <p class="bold">Links:</p> -->
+            <button class="button-clear" v-if="project.link != null" @click="externalNavigate(project.link)"
               >Project website
             </button>
-            <button class="square-button" v-if="project.githubLink != null" @click="externalNavigate(project.githubLink)">
+            <button class="button-clear" v-if="project.githubLink != null" @click="externalNavigate(project.githubLink)">
               Github
             </button>
           </div>
-          <div class="col-xs-12">
-            <p><span class="bold">Description:</span> {{ project.description }}</p>
-          </div>
-          <div v-if="project.technology.length > 0" class="col-xs-12">
-            <p class="bold">Technology used:</p>
-            <ul class="tech-list">
-              <li v-for="(technology, i) in project.technology" :key="i">{{technology}}</li>
-            </ul>
+          <div class="card card-white">
+            <div class="col-xs-12">
+              <p><span class="bold">Description:</span> {{ project.description }}</p>
+            </div>
+            <div v-if="project.technology.length > 0" class="col-xs-12">
+              <p class="bold">Technology used:</p>
+              <ul class="tech-list">
+                <li v-for="(technology, i) in project.technology" :key="i">{{technology}}</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-md-6 image-column">
-        <p class="bold text-center">Images</p>
         <img v-for="(image, j) in project.images" :key="j" class="project-image shadow" :src="image" />
       </div>
     </div>
@@ -109,6 +110,10 @@ export default {
     margin-top: 20px;
   }
 }
+
+// .information-container {
+//   background-color: ;
+// }
 
 @media (max-width: 47em) {
     .button-row{
