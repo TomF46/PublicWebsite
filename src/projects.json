@@ -1,120 +1,140 @@
 [
-    {
-      "name": "Untitled quiz app",
-      "slug" : "untitled-quiz-app",
-      "link": "http://untitledquizapp.co.uk/",
-      "githubLink": "https://github.com/TomF46/UntitledQuizApp",
-      "description": "This application consists of a Laravel API and a React frontend and allows users to create quizzes, take other peoples quizzes and more, see the Github ReadMe for a compehensive list. This application was undertaken as i have been learning laravel recently and wanted to do a slightly larger project using it. Note website may not be hosted at all times, let me know if you would like me to host it again via email.",
-      "images": [
-        "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/QApp.PNG",
-        "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/QAppQuiz.PNG",
-        "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/QAppChallanges.PNG"
-      ],
-      "technology" : [
-        "Laravel",
-        "React",
-        "Tailwind css",
-        "SASS",
-        "Webpack mix",
-        "PHP unit testing",
-        "Laravel forge deployment with AWS"
-      ]
-    },
-    {
-      "name": "WatchedIt",
-      "slug" : "watchedIt",
-      "link": null,
-      "githubLink": "https://github.com/TomF46/WatchedIt",
-      "description": "WatchedIT is a simple app where you can find, view and explore films and create a watched list to track the films you have seen. This is inspired by apps such as Letteboxd. The purpose of this application is to learn React Native and how it compares to other tech I have used such as Quasar, Ionic, and Cordova. Due to this I have tried to keep all development concentrated on visible elements such as design and user interaction and decided to mock the data with JSON as opposed to creating a real API though I may add this in the future. See Github link for Download instructions.",
-      "images": [
-        "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/WatchedIt.jpg",
-        "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/Home.jpg",
-        "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/ViewFilm.jpg",
-        "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/Explore.jpg",
-        "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/ExploreSearching.jpg",
-        "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/MyFilms.jpg"
-      ],
-      "technology" : [
-        "React",
-        "React Native",
-        "Redux"
-      ]
-    },
-    {
-      "name": "League Administration App",
-      "slug" : "league-administration-app",
-      "link": null,
-      "githubLink": "https://github.com/TomF46/LeagueSite",
-      "description": "This is a hockey (or football) league administration app which includes a .Net Core API and react front end, normal users can view league fixtures, results, and league tables as well as informarion about teams, special admin users can configure all this data in management view. The idea for this demonstration app came about as the websites used by most leagues are pretty bad and i wondered if i could make a better one.",
-      "images": [
-        "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/LeagueApp.PNG",
-        "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/LeagueAppTeams.PNG",
-        "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/LeagueAppDivision.PNG"
-      ],
-        "technology" : [
-          ".NET Core Api",
-          "ER Core",
-          "React",
-          "Webpack / Babel",
-          "Bulma css framework",
-          "SASS",
-          "NUnit testing",
-          "JWT Authentication"
-
-        ]
-    },
-    {
-      "name": "Appathematics",
-      "slug" : "appathematics",
-      "link": "https://appathematics.tomfylesdev.com/",
-      "githubLink": "https://github.com/TomF46/Appathematics",
-      "description": "Appathemtatics is a mobile first progressive web app designed to gameify basic maths skills for children, race against the clock to set new high scores and try to complete the levels as fast as possible, the game contains a number of levels which differ in the number of questions, operators used (addition, subtraction, multiplication, division) and more. This application can be installed as an app on the phone or played in a standard browser. Please see its github page for more technical information.",
-      "images": [
-        "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/appathematics.PNG"
-      ],
-        "technology" : [
-          "Vue",
-          "PWA features",
-          "Webpack and Babel build system",
-          "Vuex state management",
-          "Jest unit testing",
-          "Nightwatch E2E testing",
-          "AWS Amplify deployment"
-        ]
-    },
-    {
-      "name": "Story idle",
-      "slug" : "story-idle",
-      "link": "https://idle.tomfylesdev.com/",
-      "githubLink": "https://github.com/TomF46/StoryIdle",
-      "description": "This is a simple take on an idle/incremental game that follows a linear story progression created as a coding exercise as i enjoy playing incremental games. There are a number of stages which are unlocked by getting a specific item unlocked from the shop or as a result of completing previous tasks. Each stage unlocks one or more new tasks with potential new rewards and new items become available in the shop as the game progresses. Please view github for a more technical breakdown",
-      "images": [
-        "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/storyline.PNG",
-        "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/StorylineShop.PNG"
-      ],
-        "technology" : [
-          "Vue",
-          "Vuex state management",
-          "Flexbox grid",
-          "SCSS",
-          "PWA Features"
-        ]
-    },
-    {
-      "name": "Craftit Api",
-      "slug" : "craftit-api",
-      "link": null,
-      "githubLink": "https://github.com/TomF46/CraftIt",
-      "description": "The craftit api is an API designed for use with a ficticious social recipe sharing application, the api covers the creation, editing, and deleting of recipes as well as user management, authentication and permissions. This is a .NET Core API and more information can be found on its github page linked above.",
-      "images": [
-        "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/craftitapi.PNG"
-      ],
-        "technology" : [
-          ".NET Core",
-          "EF Core",
-          "Swagger",
-          "JWT user authentication",
-          "NUnit testing"
-        ]
-    }
-  ]
+  {
+    "name": "Mentior Corp Finance Tool",
+    "slug": "finance-app",
+    "link": null,
+    "githubLink": "https://github.com/TomF46/FinanceApp",
+    "description": "Mentior Corp Finance Tool is an end of year funding application app for a fictitious company. This application was created using a React front end wrapped within a Laravel application acting as an API. In depth information about the business case and technical information can be found in the ReadMe by following the link to Github.",
+    "images": [
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorpApplicationReadOnly.PNG",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorpRetailDeashboard.PNG",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorpApplication.PNG"
+    ],
+    "technology": [
+      "Laravel",
+      "React",
+      "Tailwind css",
+      "SASS",
+      "Webpack mix",
+      "PHP unit testing",
+      "Docker with Laravel Sail"
+    ]
+  },
+  {
+    "name": "Untitled quiz app",
+    "slug": "untitled-quiz-app",
+    "link": "http://untitledquizapp.co.uk/",
+    "githubLink": "https://github.com/TomF46/UntitledQuizApp",
+    "description": "This application consists of a Laravel API and a React frontend and allows users to create quizzes, take other peoples quizzes and more, see the Github ReadMe for a compehensive list. This application was undertaken as i have been learning laravel recently and wanted to do a slightly larger project using it. Note website may not be hosted at all times, let me know if you would like me to host it again via email.",
+    "images": [
+      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/QApp.PNG",
+      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/QAppQuiz.PNG",
+      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/QAppChallanges.PNG"
+    ],
+    "technology": [
+      "Laravel",
+      "React",
+      "Tailwind css",
+      "SASS",
+      "Webpack mix",
+      "PHP unit testing",
+      "Laravel forge deployment with AWS"
+    ]
+  },
+  {
+    "name": "WatchedIt",
+    "slug": "watchedIt",
+    "link": null,
+    "githubLink": "https://github.com/TomF46/WatchedIt",
+    "description": "WatchedIT is a simple app where you can find, view and explore films and create a watched list to track the films you have seen. This is inspired by apps such as Letteboxd. The purpose of this application is to learn React Native and how it compares to other tech I have used such as Quasar, Ionic, and Cordova. Due to this I have tried to keep all development concentrated on visible elements such as design and user interaction and decided to mock the data with JSON as opposed to creating a real API though I may add this in the future. See Github link for Download instructions.",
+    "images": [
+      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/WatchedIt.jpg",
+      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/Home.jpg",
+      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/ViewFilm.jpg",
+      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/Explore.jpg",
+      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/ExploreSearching.jpg",
+      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/MyFilms.jpg"
+    ],
+    "technology": [
+      "React",
+      "React Native",
+      "Redux"
+    ]
+  },
+  {
+    "name": "League Administration App",
+    "slug": "league-administration-app",
+    "link": null,
+    "githubLink": "https://github.com/TomF46/LeagueSite",
+    "description": "This is a hockey (or football) league administration app which includes a .Net Core API and react front end, normal users can view league fixtures, results, and league tables as well as informarion about teams, special admin users can configure all this data in management view. The idea for this demonstration app came about as the websites used by most leagues are pretty bad and i wondered if i could make a better one.",
+    "images": [
+      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/LeagueApp.PNG",
+      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/LeagueAppTeams.PNG",
+      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/LeagueAppDivision.PNG"
+    ],
+    "technology": [
+      ".NET Core Api",
+      "ER Core",
+      "React",
+      "Webpack / Babel",
+      "Bulma css framework",
+      "SASS",
+      "NUnit testing",
+      "JWT Authentication"
+    ]
+  },
+  {
+    "name": "Appathematics",
+    "slug": "appathematics",
+    "link": "https://appathematics.tomfylesdev.com/",
+    "githubLink": "https://github.com/TomF46/Appathematics",
+    "description": "Appathemtatics is a mobile first progressive web app designed to gameify basic maths skills for children, race against the clock to set new high scores and try to complete the levels as fast as possible, the game contains a number of levels which differ in the number of questions, operators used (addition, subtraction, multiplication, division) and more. This application can be installed as an app on the phone or played in a standard browser. Please see its github page for more technical information.",
+    "images": [
+      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/appathematics.PNG"
+    ],
+    "technology": [
+      "Vue",
+      "PWA features",
+      "Webpack and Babel build system",
+      "Vuex state management",
+      "Jest unit testing",
+      "Nightwatch E2E testing",
+      "AWS Amplify deployment"
+    ]
+  },
+  {
+    "name": "Story idle",
+    "slug": "story-idle",
+    "link": "https://idle.tomfylesdev.com/",
+    "githubLink": "https://github.com/TomF46/StoryIdle",
+    "description": "This is a simple take on an idle/incremental game that follows a linear story progression created as a coding exercise as i enjoy playing incremental games. There are a number of stages which are unlocked by getting a specific item unlocked from the shop or as a result of completing previous tasks. Each stage unlocks one or more new tasks with potential new rewards and new items become available in the shop as the game progresses. Please view github for a more technical breakdown",
+    "images": [
+      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/storyline.PNG",
+      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/StorylineShop.PNG"
+    ],
+    "technology": [
+      "Vue",
+      "Vuex state management",
+      "Flexbox grid",
+      "SCSS",
+      "PWA Features"
+    ]
+  },
+  {
+    "name": "Craftit Api",
+    "slug": "craftit-api",
+    "link": null,
+    "githubLink": "https://github.com/TomF46/CraftIt",
+    "description": "The craftit api is an API designed for use with a ficticious social recipe sharing application, the api covers the creation, editing, and deleting of recipes as well as user management, authentication and permissions. This is a .NET Core API and more information can be found on its github page linked above.",
+    "images": [
+      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/craftitapi.PNG"
+    ],
+    "technology": [
+      ".NET Core",
+      "EF Core",
+      "Swagger",
+      "JWT user authentication",
+      "NUnit testing"
+    ]
+  }
+]
