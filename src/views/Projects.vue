@@ -5,7 +5,7 @@
         <h1 class="page-title">Projects</h1>
       </div>
     </div>
-    <div v-for="(project, i) in projects" :key="i" class="row project-row">
+    <div v-for="(project, i) in projects" :key="i" class="row project-row card">
       <div class="col-xs-12 col-md-6">
         <div class="row project-info">
           <div class="col-xs-12">
@@ -25,6 +25,7 @@
           </div>
           <div class="col-xs-12">
             <button class="button-clear" @click="navigate(`/projects/${project.slug}`)">More information</button>
+            <!-- <a class="link" :href="`/projects/${project.slug}`">More information &#8594</a> -->
           </div>
         </div>
       </div>
@@ -56,8 +57,7 @@ export default {
 .projects {
   text-align: left;
   .project-row {
-    margin: 0px 40px;
-    border-bottom: 1px solid lightgray;
+    margin: 20px 40px;
     
     .project-info {
       margin: 40px 0;
@@ -68,10 +68,13 @@ export default {
   }
   .title {
     font-size: 1.4em;
+    color: #31708e;
     text-decoration: underline;
   }
   button{
     display: inline-block;
+    padding: 8px;
+    font-size: 1.1em;
   }
   .project-image {
     max-width: 80%;
@@ -89,8 +92,19 @@ export default {
   a:hover {
     color: #31708e;
   }
+  .link{
+    color: #31708e;
+    font-size: 1.25em;
+    cursor: pointer;
+  }
+  .link:hover{
+    color: #31598e;
+  }
 
   @media (max-width: 47em) {
+    .project-row {
+      margin: 20px;
+    }
     .project-image {
       max-width: 100%;
     }

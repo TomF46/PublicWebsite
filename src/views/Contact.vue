@@ -9,7 +9,7 @@
         </div>
         <div class="row">
         <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3  card">
-          <p>
+          <p class="about-text">
             I'm Tom a Web application developer with multiyear experience in developing applications using .NET and cutting edge modern front end technologies and frameworks (e.g. VueJS, ES6 JavaScript, HTML5, CSS3). Keen interest in the implementation of the latest browser/ front end features to create the best possible interfaces and experience for users as the web evolves. <br><br>
             I have worked with and take an interest in the use of PWA and Hybrid web apps to produce native like mobile experiences for users and have worked on apps that have been released on both the Apple App store and Google Play Store and have a good understanding of the processes required to release an application to the public and following the app store processes <br><br>
             I also have knowledge in a range of AWS services and how to use these to host websites, store files and data and run web services to support applications. Services I have heavily used include, S3, Amplify, Lambda, and Route53 and a number of these have been used in the projects on my projects page. <br><br>
@@ -60,6 +60,9 @@ export default {
   padding-bottom: 20px;
   .card{
     margin-bottom: 20px;
+    .about-text{
+      color: #000;
+    }
   }
 }
 </style>

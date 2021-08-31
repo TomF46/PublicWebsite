@@ -1,5 +1,5 @@
 <template>
-  <div id="projects-section" class="projects page">
+  <div id="projects-section" class="projects page project-detail">
       <div class="header">
         <svg class="back-arrow pointer" @click="navigate('/')" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
@@ -13,17 +13,8 @@
       </div>
     </div>
     <div class="row project-row no-border-b">
-      <div class="col-xs-12 col-md-6">
+      <div class="col-xs-12 mb-16">
         <div class="row">
-          <div class="col-xs-12 button-row">
-            <!-- <p class="bold">Links:</p> -->
-            <button class="button-clear" v-if="project.link != null" @click="externalNavigate(project.link)"
-              >Project website
-            </button>
-            <button class="button-clear" v-if="project.githubLink != null" @click="externalNavigate(project.githubLink)">
-              Github
-            </button>
-          </div>
           <div class="card card-white">
             <div class="col-xs-12">
               <p><span class="bold">Description:</span> {{ project.description }}</p>
@@ -34,11 +25,19 @@
                 <li v-for="(technology, i) in project.technology" :key="i">{{technology}}</li>
               </ul>
             </div>
+            <div class="col-xs-12 button-row">
+            <button class="button-clear" v-if="project.link != null" @click="externalNavigate(project.link)"
+              >Project website
+            </button>
+            <button class="button-clear" v-if="project.githubLink != null" @click="externalNavigate(project.githubLink)">
+              Github
+            </button>
+          </div>
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-md-6 image-column">
-        <img v-for="(image, j) in project.images" :key="j" class="project-image shadow" :src="image" />
+      <div v-for="(image, j) in project.images" :key="j" class="col-xs-12 col-md-6 image-column">
+        <img class="project-image shadow" :src="image" />
       </div>
     </div>
     </div>
@@ -107,7 +106,13 @@ export default {
 
 .image-column{
   .project-image{
-    margin-top: 20px;
+    margin-top: 0px;
+  }
+}
+
+.project-detail{
+  .card{
+    margin: 40px;
   }
 }
 
@@ -121,6 +126,19 @@ export default {
             margin: 0 auto;
             margin-top: 10px;
         }
+    }
+    .project-detail{
+      .card{
+        margin: 0px;
+      }
+}
+}
+
+@media (max-width: 60em) {
+    .image-column{
+      .project-image{
+        margin-top: 20px;
+      }
     }
 }
 

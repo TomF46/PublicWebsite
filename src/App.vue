@@ -41,7 +41,11 @@ body, #app{
 }
 .page-title{
   font-size: 2.5em;
-  margin: 1em 0;
+  margin: 0.8em 0;
+}
+
+.mb-16{
+  margin-bottom: 1em;
 }
 
 .text-center{
@@ -53,19 +57,19 @@ body, #app{
 }
 
 .card{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fefefe;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
   padding: 16px;
-  background-color: #eee;
   p{
-    color: #000!important;
+    color: #000;
   }
   .card-white{
     background-color: #fefefe;
   }
-}
-.card.card-white{
+  button.button-clear{
     background-color: #fefefe;
   }
+}
 
 .pointer{
   cursor: pointer;
@@ -113,6 +117,8 @@ button.button-clear:hover{
 .shadow{
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
 }
+
+
 .blue-background{
   background-color: #31708e;
 
@@ -123,7 +129,7 @@ button.button-clear:hover{
   button{
     margin-top: 20px;
     padding: 10px;
-    border: 1px solid #eee;
+    border: 1px solid #fefefe;
     background-color: #31708e;
     cursor: pointer;
     color: #eee;
@@ -133,7 +139,7 @@ button.button-clear:hover{
   }
 
   button:hover{
-    background-color: #eee;
+    background-color: #fefefe;
     color: #31708e;
   }
 }
