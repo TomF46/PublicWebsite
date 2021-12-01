@@ -27,9 +27,10 @@
     "githubLink": "https://github.com/TomF46/UntitledQuizApp",
     "description": "This application consists of a Laravel API and a React frontend and allows users to create quizzes, take other peoples quizzes and more, see the Github ReadMe for a compehensive list. This application was undertaken as i have been learning laravel recently and wanted to do a slightly larger project using it. Note website may not be hosted at all times, let me know if you would like me to host it again via email.",
     "images": [
-      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/QApp.PNG",
-      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/QAppQuiz.PNG",
-      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/QAppChallanges.PNG"
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QAppNew/QAppDashboard.PNG",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QAppNew/QAppQuizDetail.PNG",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QAppNew/QAppQuiz.PNG",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QAppNew/QAppChallenges.PNG"
     ],
     "technology": [
       "Laravel",
