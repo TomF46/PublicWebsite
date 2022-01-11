@@ -20,7 +20,7 @@
           <button @click="scrollToHash('#projects-section')">View Projects</button>
         </div>
         <div class="col-xs-8">
-          <button @click="externalNavigate('https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/ThomasFylesCv.pdf')" download>Download CV</button>
+          <button @click="externalNavigate('https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/ThomasFylesCV.pdf')" download>Download CV</button>
         </div>
         <div class="col-xs-8">
           <button @click="scrollToHash('#contact-page')">Find out more</button>
