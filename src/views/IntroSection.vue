@@ -1,33 +1,37 @@
 <template>
-  <div class="intro page blue-background">
+  <div class="intro page dark-background">
     <div class="row">
-        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3  col-lg-4 col-lg-offset-4">
-          <img class="logo" src="https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/TrimmedInitialsLogo.png" />
+        <div class="col-xs-12 col-sm-1">
+          <img class="logo" src="https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/InitialsLogoDarkScheme.png" />
+        </div>
+        <div class="nav col-xs-12 col-sm-11">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
         </div>
       </div>
     <div class="intro-logo">
       <div class="row">
         <div class="col-xs-12">
           <h1>Tom Fyles <br> <span>Web Developer</span></h1>
+          <p class="intro-copy">
+            Web application developer with multi year experience in developing applications using .NET and cutting edge modern front end technologies and frameworks.
+          </p>
         </div>
       </div>
     </div>
     <div class="intro-body">
       <div class="row center-xs">
-        <div class="col-xs-8 col-lg-6">
-          <p class="intro-copy">
-            Web application developer with multi year experience in developing applications using .NET and cutting edge modern front end technologies and frameworks (e.g. VueJs, ES6 Javascript, HTML5, CSS3). Keen interest in the implementation of the latest browser/ front end features to create the best possible interfaces and experience for users as the web evolves.
-          </p>
-        </div>
-      </div>
-      <div class="row center-xs">
-        <div class="col-xs-8">
+        <div class="col-xs-12 col-sm-2">
           <button @click="scrollToHash('#projects-section')">View Projects</button>
         </div>
-        <div class="col-xs-8">
+        <div class="col-xs-12 col-sm-2">
           <button @click="externalNavigate('https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/ThomasFylesCV.pdf')" download>Download CV</button>
         </div>
-        <div class="col-xs-8">
+        <div class="col-xs-12 col-sm-2">
           <button @click="scrollToHash('#contact-page')">Find out more</button>
         </div>
       </div>
@@ -61,8 +65,11 @@ export default {
     h1{
       font-size: 5rem;
       line-height: 4rem;
+      margin: 2vh;
+      color: #31708e;
       span{
         font-size: 2.5rem;
+        color: #ADF1D2;
       };
     }
   }
@@ -71,6 +78,30 @@ export default {
     width: 40%;
     margin-top: 10%;
     margin-bottom: 5%;
+  }
+
+  .nav{
+    display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+
+      li {
+        float: left;
+
+        a{
+          display: block;
+          padding: 8px 16px;
+          color: #ADF1D2;
+        }
+      }
+
+    }
   }
 
   @media (max-width: 47em) {

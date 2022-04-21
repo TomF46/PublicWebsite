@@ -143,4 +143,29 @@ button.button-clear:hover{
     color: #31708e;
   }
 }
+
+.dark-background{
+  background-color: #201E1F;
+
+  h1,h2,h3,h4,h5, p , a{
+    color: #f7f9fb;
+  }
+
+  button{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #31708e;
+    background-color: #201E1F;
+    cursor: pointer;
+    color: #31708e;
+    font-size: 1.25em;
+    min-width: 200px;
+    border-radius: 100px;
+  }
+
+  button:hover{
+    border: 1px solid #ADF1D2;
+    color: #ADF1D2;
+  }
+}
 </style>
