@@ -18,7 +18,7 @@
         <div class="col-xs-12">
           <h1>Tom Fyles <br> <span>Web Developer</span></h1>
           <p class="intro-copy">
-            Web application developer with multi year experience in developing applications using .NET and cutting edge modern front end technologies and frameworks.
+            Web application developer with multi year experience in developing applications using .NET, Laravel, and cutting edge front end technologies and frameworks.
           </p>
         </div>
       </div>
@@ -61,6 +61,8 @@ export default {
 
 .intro{
 
+  margin-bottom: 10vh;
+
   .intro-logo{
     h1{
       font-size: 5rem;
@@ -98,6 +100,10 @@ export default {
           display: block;
           padding: 8px 16px;
           color: #ADF1D2;
+          text-decoration: none;
+        }
+        a:hover{
+          color: #31708e;
         }
       }
 

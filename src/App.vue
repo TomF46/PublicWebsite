@@ -24,7 +24,7 @@ export default {
 @import '../node_modules/flexboxgrid/dist/flexboxgrid.min.css';
 
 html{
-  background-color: #f7f9fb;
+  background-color: #201E1F;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -42,6 +42,7 @@ body, #app{
 .page-title{
   font-size: 2.5em;
   margin: 0.8em 0;
+  color: #ADF1D2;
 }
 
 .mb-16{
@@ -52,9 +53,9 @@ body, #app{
   text-align: center;
 }
 
-.page{
-  min-height: 100vh;
-}
+// .page{
+//   min-height: 100vh;
+// }
 
 .card{
   background-color: #fefefe;
@@ -90,7 +91,6 @@ button{
     color: #eee;
     font-size: 1.25em;
     min-width: 200px;
-    border-radius: 100px;
 }
 
 button.button-clear{
@@ -135,7 +135,6 @@ button.button-clear:hover{
     color: #eee;
     font-size: 1.25em;
     min-width: 200px;
-    border-radius: 100px;
   }
 
   button:hover{
@@ -147,8 +146,12 @@ button.button-clear:hover{
 .dark-background{
   background-color: #201E1F;
 
-  h1,h2,h3,h4,h5, p , a{
+  p , a{
     color: #f7f9fb;
+  }
+
+  h1,h2,h3,h4,h5, .page-title{
+    color: #ADF1D2;
   }
 
   button{
@@ -160,7 +163,6 @@ button.button-clear:hover{
     color: #31708e;
     font-size: 1.25em;
     min-width: 200px;
-    border-radius: 100px;
   }
 
   button:hover{

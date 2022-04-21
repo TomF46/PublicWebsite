@@ -1,10 +1,5 @@
 <template>
-  <div id="projects-section" class="projects page">
-    <div class="row center-xs">
-      <div class="col-xs-12">
-        <h1 class="page-title">Projects</h1>
-      </div>
-    </div>
+  <div id="projects-section" class="projects page dark-background">
     <div class="row center-xs">
       <div v-for="(item, i) in gridItems" :key="i" class="col-xs-12 col-md-4 project-tile">
         <project-grid-item :item="item" />
@@ -37,6 +32,7 @@ export default {
 <style lang="scss">
 #projects-section{
   margin: 0 10%;
+  margin-bottom: 10vh;
 }
 
 </style>

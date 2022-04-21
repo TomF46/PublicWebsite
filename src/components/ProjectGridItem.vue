@@ -22,7 +22,6 @@ export default {
 <style lang="scss">
 .crossfade { 
     margin: 8px 0;
-    border: 1px solid #999;
     background-size: contain;
     
     img {
