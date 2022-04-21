@@ -1,5 +1,5 @@
 <template>
-  <div id="projects-section" class="projects page">
+  <div id="projects-page" class="projects page">
     <header-bar></header-bar>
     <div class="row center-xs">
       <div class="col-xs-12">
