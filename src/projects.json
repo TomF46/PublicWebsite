@@ -73,7 +73,8 @@
     "images": [
       "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/LeagueAdminWebsiteLogo.png",
       "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/LeagueAppOverview.png",
-      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/LeagueApp.PNG",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/LeagueAppFixtures.PNG",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/LeagueAppLeagueTable.PNG",
       "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/LeagueAppTeams.PNG",
       "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/LeagueAppDivision.PNG"
     ],

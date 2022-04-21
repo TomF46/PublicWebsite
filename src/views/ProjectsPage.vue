@@ -26,7 +26,6 @@
           </div>
           <div class="col-xs-12">
             <button class="button-clear" @click="navigate(`/projects/${project.slug}`)">More information</button>
-            <!-- <a class="link" :href="`/projects/${project.slug}`">More information &#8594</a> -->
           </div>
         </div>
       </div>
