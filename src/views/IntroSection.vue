@@ -2,7 +2,7 @@
   <div class="intro page blue-background">
     <div class="row">
         <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3  col-lg-4 col-lg-offset-4">
-          <img class="logo" src="/img/InitialsLogoAlternate.svg" />
+          <img class="logo" src="https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/TrimmedInitialsLogo.png" />
         </div>
       </div>
     <div class="intro-logo">
@@ -68,8 +68,9 @@ export default {
   }
 
   .logo{
-    width: 60%;
-    margin: 0 auto;
+    width: 40%;
+    margin-top: 10%;
+    margin-bottom: 5%;
   }
 
   @media (max-width: 47em) {
