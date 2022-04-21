@@ -1,13 +1,18 @@
 <template>
-  <div class="home page blue-background">
-    <div class="home-logo">
+  <div class="intro page blue-background">
+    <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3  col-lg-4 col-lg-offset-4">
+          <img class="logo" src="/img/InitialsLogoAlternate.svg" />
+        </div>
+      </div>
+    <div class="intro-logo">
       <div class="row">
         <div class="col-xs-12">
           <h1>Tom Fyles <br> <span>Web Developer</span></h1>
         </div>
       </div>
     </div>
-    <div class="home-body">
+    <div class="intro-body">
       <div class="row center-xs">
         <div class="col-xs-8 col-lg-6">
           <p class="intro-copy">
@@ -26,18 +31,13 @@
           <button @click="scrollToHash('#contact-page')">Find out more</button>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3  col-lg-4 col-lg-offset-4">
-          <img class="logo" src="/img/InitialsLogoAlternate.svg" />
-        </div>
-      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Home',
+  name: 'Intro',
   methods:{
     navigate(link){
       this.$router.push(link)
@@ -55,10 +55,9 @@ export default {
 
 <style lang="scss">
 
-.home{
+.intro{
 
-  .home-logo{
-      padding-top: 10vh;
+  .intro-logo{
     h1{
       font-size: 5rem;
       line-height: 4rem;
@@ -77,14 +76,13 @@ export default {
       .intro-copy{
           display: none;
       }
-      .home-logo{
+      .intro-logo{
       padding-top: 5vh;
           h1{
               line-height: 5rem;
           }
       }
   }
-
 }
 
 </style>
