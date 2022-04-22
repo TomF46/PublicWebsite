@@ -5,7 +5,7 @@
       <div class="col-xs-12 mb-16">
         <div class="row">
           <div class="card">
-            <div class="col-xs-12">
+            <div class="col-xs-12 center-xs start-sm">
               <h1 class="page-title">{{ project.name }}</h1>
             </div>
             <div class="col-xs-12">
