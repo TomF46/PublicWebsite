@@ -13,7 +13,7 @@
     <div class="intro-body">
       <div class="row center-xs">
         <div class="col-xs-12 col-sm-2">
-          <button @click="scrollToHash('#projects-section')">View Projects</button>
+          <button @click="navigate('/projects')">View Projects</button>
         </div>
         <div class="col-xs-12 col-sm-2">
           <button @click="externalNavigate('https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/ThomasFylesCV.pdf')" download>Download CV</button>

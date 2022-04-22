@@ -1,15 +1,13 @@
 <template>
-  <div id="project-page" class="projects page project-detail">
+  <div id="project-page" class="projects page project-detail dark-background">
     <div v-if="project">
-        <div class="row center-xs">
-      <div class="col-xs-12">
-        <h1 class="page-title">{{ project.name }}</h1>
-      </div>
-    </div>
     <div class="row project-row no-border-b">
       <div class="col-xs-12 mb-16">
         <div class="row">
-          <div class="card card-white">
+          <div class="card">
+            <div class="col-xs-12">
+              <h1 class="page-title">{{ project.name }}</h1>
+            </div>
             <div class="col-xs-12">
               <p><span class="bold">Description:</span> {{ project.description }}</p>
             </div>
@@ -20,10 +18,10 @@
               </ul>
             </div>
             <div class="col-xs-12 button-row">
-            <button class="button-clear" v-if="project.link != null" @click="externalNavigate(project.link)"
+            <button class="button" v-if="project.link != null" @click="externalNavigate(project.link)"
               >Project website
             </button>
-            <button class="button-clear" v-if="project.githubLink != null" @click="externalNavigate(project.githubLink)">
+            <button class="button" v-if="project.githubLink != null" @click="externalNavigate(project.githubLink)">
               Github
             </button>
           </div>

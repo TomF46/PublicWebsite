@@ -1,5 +1,5 @@
 <template>
-  <div id="projects-page" class="projects page">
+  <div id="projects-page" class="projects page dark-background">
     <div class="row center-xs">
       <div class="col-xs-12">
         <h1 class="page-title">Projects</h1>
@@ -9,14 +9,14 @@
       <div class="col-xs-12 col-md-6">
         <div class="row project-info">
           <div class="col-xs-12">
-            <p class="title">{{ project.name }}</p>
+            <h2 class="title pointer" @click="navigate(`/projects/${project.slug}`)">{{ project.name }}</h2>
           </div>
           <div class="col-xs-12">
-            <a v-if="project.link != null" :href="project.link"
+            <a class="project-external-link" v-if="project.link != null" :href="project.link"
               >Project website</a
             >
             <br />
-            <a v-if="project.githubLink != null" :href="project.githubLink"
+            <a class="project-external-link" v-if="project.githubLink != null" :href="project.githubLink"
               >Github page</a
             >
           </div>
@@ -24,12 +24,12 @@
             <p>{{ project.description }}</p>
           </div>
           <div class="col-xs-12">
-            <button class="button-clear" @click="navigate(`/projects/${project.slug}`)">More information</button>
+            <button class="button" @click="navigate(`/projects/${project.slug}`)">More information</button>
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-md-6">
-        <img class="project-image shadow" :src="project.images[0]" />
+        <img @click="navigate(`/projects/${project.slug}`)" class="project-image shadow pointer" :src="project.images[0]" />
       </div>
     </div>
   </div>
@@ -61,6 +61,12 @@ export default {
     .project-info {
       margin: 40px 0;
     }
+    .project-external-link{
+      color: #ADF1D2;
+    }
+    .project-external-link:hover{
+      color: #31708e;
+    }
   }
   .project-row.no-border-b{
     border-bottom: none;
@@ -68,7 +74,6 @@ export default {
   .title {
     font-size: 1.4em;
     color: #31708e;
-    text-decoration: underline;
   }
   button{
     display: inline-block;
@@ -79,8 +84,6 @@ export default {
     max-width: 80%;
     max-height: 400px;
     margin: 40px;
-    border-radius: 16px;
-    border: 1px solid lightgray;
     margin-left: auto;
     margin-right: auto;
     display: block;

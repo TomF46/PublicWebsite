@@ -62,7 +62,7 @@ export default {
   .card{
     margin-bottom: 20px;
     .about-text{
-      color: #000;
+      color: #fff;
     }
   }
   .social-icon{

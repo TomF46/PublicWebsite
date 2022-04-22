@@ -28,6 +28,7 @@ export default {
 <style lang="scss">
 /* Import flexgrid css during build */
 @import '../node_modules/flexboxgrid/dist/flexboxgrid.min.css';
+@import './assets/fonts/FontImport.css';
 
 html{
   background-color: #201E1F;
@@ -40,6 +41,10 @@ html{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+
+  h1,h2,h3,h4,h5, button{
+    font-family: 'bebas_neueregular', 'Roboto', Avenir, Helvetica, Arial, sans-serif;
+  }
 }
 body, #app{
   margin: 0px;
@@ -64,11 +69,11 @@ body, #app{
 // }
 
 .card{
-  background-color: #fefefe;
-  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+  // background-color: #fefefe;
+  // box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
   padding: 16px;
-  p{
-    color: #000;
+  p, li{
+    color: #F5F5F5;
   }
   .card-white{
     background-color: #fefefe;
@@ -152,7 +157,7 @@ button.button-clear:hover{
 .dark-background{
   background-color: #201E1F;
 
-  p , a{
+  p , a, li{
     color: #f7f9fb;
   }
 
