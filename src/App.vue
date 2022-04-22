@@ -51,6 +51,10 @@ body, #app{
   min-height: 100vh;
 }
 
+body, html{
+  overflow-x:hidden;
+}
+
 .page{
   margin: 0px 2vw;
   margin-bottom: 10px;
