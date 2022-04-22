@@ -12,14 +12,14 @@
     </div>
     <div class="intro-body">
       <div class="row center-xs">
-        <div class="col-xs-12 col-sm-2">
-          <button @click="navigate('/projects')">View Projects</button>
+        <div class="col-xs-12 col-sm-4 col-md-3">
+          <button class="button-right" @click="navigate('/projects')">View Projects</button>
         </div>
-        <div class="col-xs-12 col-sm-2">
+        <div class="col-xs-12 col-sm-4 col-md-3">
           <button @click="externalNavigate('https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/ThomasFylesCV.pdf')" download>Download CV</button>
         </div>
-        <div class="col-xs-12 col-sm-2">
-          <button @click="scrollToHash('#contact-page')">Find out more</button>
+        <div class="col-xs-12 col-sm-4 col-md-3">
+          <button class="button-left" @click="scrollToHash('#contact-page')">Find out more</button>
         </div>
       </div>
     </div>
@@ -73,6 +73,18 @@ export default {
           }
       }
   }
+
+  @media (min-width: 48em) {
+      .button-left{
+        float: left;
+      }
+      .button-right{
+        float: right;
+      }
+  }
 }
+
+
+
 
 </style>

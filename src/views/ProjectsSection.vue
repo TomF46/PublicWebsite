@@ -1,7 +1,7 @@
 <template>
   <div id="projects-section" class="projects page">
     <div class="row center-xs">
-      <div v-for="(item, i) in gridItems" :key="i" class="col-xs-12 col-md-4 project-tile">
+      <div v-for="(item, i) in gridItems" :key="i" class="col-xs-12 col-sm-6 col-md-4 project-tile">
         <project-grid-item :item="item" />
       </div>
     </div>

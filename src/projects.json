@@ -109,23 +109,5 @@
       "Nightwatch E2E testing",
       "AWS Amplify deployment"
     ]
-  },
-  {
-    "name": "Story idle",
-    "slug": "story-idle",
-    "link": "https://idle.tomfylesdev.com/",
-    "githubLink": "https://github.com/TomF46/StoryIdle",
-    "description": "This is a simple take on an idle/incremental game that follows a linear story progression created as a coding exercise as i enjoy playing incremental games. There are a number of stages which are unlocked by getting a specific item unlocked from the shop or as a result of completing previous tasks. Each stage unlocks one or more new tasks with potential new rewards and new items become available in the shop as the game progresses. Please view github for a more technical breakdown",
-    "images": [
-      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/storyline.PNG",
-      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/StorylineShop.PNG"
-    ],
-    "technology": [
-      "Vue",
-      "Vuex state management",
-      "Flexbox grid",
-      "SCSS",
-      "PWA Features"
-    ]
   }
 ]

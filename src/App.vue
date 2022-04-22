@@ -50,6 +50,12 @@ body, #app{
   margin: 0px;
   min-height: 100vh;
 }
+
+.page{
+  margin: 0px 2vw;
+  margin-bottom: 10px;
+}
+
 .page-title{
   font-size: 2.5em;
   margin: 0.8em 0;

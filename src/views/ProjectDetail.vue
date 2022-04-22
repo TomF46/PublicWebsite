@@ -25,11 +25,14 @@
               Github
             </button>
           </div>
+          <div class="col-xs-12">
+            <div class="row center-xs start-sm image-preview-row">
+              <img class="image" v-for="(image, i) in project.images"  :key="i" :src="image" @click="index = i" />
+              <vue-gallery-slideshow :images="project.images" :index="index" @close="index = null"></vue-gallery-slideshow>
+            </div>
+          </div>
           </div>
         </div>
-      </div>
-      <div v-for="(image, j) in project.images" :key="j" class="col-xs-12 col-md-6 image-column">
-        <img class="project-image shadow" :src="image" />
       </div>
     </div>
     </div>
@@ -42,13 +45,16 @@
 
 <script>
 import projectsData from '../projects.json';
+import VueGallerySlideshow from 'vue-gallery-slideshow';
 
 export default {
   name: "Projects-Detail",
   props: ['slug'],
+  components: { VueGallerySlideshow },
   data: () => {
     return {
-      projects: projectsData
+      projects: projectsData,
+      index: null
     };
   },
   computed: {
@@ -80,16 +86,24 @@ export default {
     }
 }
 
-.image-column{
-  .project-image{
-    margin-top: 0px;
-  }
-}
-
 .project-detail{
   .card{
     margin: 40px;
   }
+}
+
+.image {
+  width: 140px;
+  height: 140px;
+  background-size: cover;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 3px;
+  border: 1px solid #31708e;
+  object-fit: contain;
+}
+.image:hover {
+  border: 1px solid #ADF1D2;
 }
 
 
@@ -107,12 +121,5 @@ export default {
 }
 }
 
-@media (max-width: 60em) {
-    .image-column{
-      .project-image{
-        margin-top: 20px;
-      }
-    }
-}
 
 </style>

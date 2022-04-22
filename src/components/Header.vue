@@ -119,6 +119,11 @@ export default {
       .xs-hidden{
         display: none;
       }
+      .logo{
+        width: 20%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+      }
   }
 }
 

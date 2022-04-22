@@ -1,25 +1,16 @@
 <template>
-    <div @click="navigate(item.link)">
-      <crossfade-image :topImage="item.images[0]" :bottomImage="item.images[1]" />
-    </div>
+    <div class="crossfade pointer" :style="{ backgroundImage: 'url(' + bottomImage + ')' }">
+          <img :src="topImage" />
+      </div>
 </template>
 
 <script>
-import CrossfadeImage from './CrossfadeImage.vue';
 export default {
-  name: "project-grid-item",
-  props: ['item'],
-  components:{
-    'crossfade-image' : CrossfadeImage,
-  },
+  name: "crossfade-image",
+  props: ['topImage','bottomImage'],
   data: () => {
     return { };
   },
-  methods:{
-    navigate(link){
-      this.$router.push(link)
-    }
-  }
 };
 </script>
 
