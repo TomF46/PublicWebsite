@@ -1,5 +1,5 @@
 <template>
-  <div id="project-page" class="projects page project-detail dark-background">
+  <div id="project-page" class="projects page project-detail">
     <div v-if="project">
     <div class="row project-row no-border-b">
       <div class="col-xs-12 mb-16">
@@ -92,9 +92,6 @@ export default {
   }
 }
 
-// .information-container {
-//   background-color: ;
-// }
 
 @media (max-width: 47em) {
     .button-row{

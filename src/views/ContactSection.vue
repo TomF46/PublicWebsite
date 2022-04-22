@@ -1,5 +1,5 @@
 <template>
-  <div id="contact-page" class="contact page dark-background">
+  <div id="contact-page" class="contact page">
     <div class="row center-xs">
       <div class="col-xs-12 center-xs">
         <div class="row">

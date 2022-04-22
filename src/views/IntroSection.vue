@@ -1,5 +1,5 @@
 <template>
-  <div class="intro page dark-background">
+  <div class="intro page">
     <div class="intro-logo">
       <div class="row">
         <div class="col-xs-12">
@@ -47,7 +47,6 @@ export default {
 <style lang="scss">
 
 .intro{
-
   margin-bottom: 10vh;
 
   .intro-logo{

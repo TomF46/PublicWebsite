@@ -1,5 +1,5 @@
 <template>
-  <div id="projects-page" class="projects page dark-background">
+  <div id="projects-page" class="projects page">
     <div class="row center-xs">
       <div class="col-xs-12">
         <h1 class="page-title">Projects</h1>
@@ -67,9 +67,6 @@ export default {
     .project-external-link:hover{
       color: #31708e;
     }
-  }
-  .project-row.no-border-b{
-    border-bottom: none;
   }
   .title {
     font-size: 1.4em;
