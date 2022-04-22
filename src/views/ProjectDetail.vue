@@ -28,7 +28,7 @@
           <div class="col-xs-12">
             <div class="row center-xs start-sm image-preview-row">
               <img class="image" v-for="(image, i) in project.images"  :key="i" :src="image" @click="index = i" />
-              <vue-gallery-slideshow :images="project.images" :index="index" @close="index = null"></vue-gallery-slideshow>
+              <gallery :images="project.images" :index="index" @close="index = null"></gallery>
             </div>
           </div>
           </div>
@@ -45,12 +45,12 @@
 
 <script>
 import projectsData from '../projects.json';
-import VueGallerySlideshow from 'vue-gallery-slideshow';
+import VueGallery from 'vue-gallery';
 
 export default {
   name: "Projects-Detail",
   props: ['slug'],
-  components: { VueGallerySlideshow },
+  components: {'gallery' :  VueGallery },
   data: () => {
     return {
       projects: projectsData,
@@ -105,6 +105,7 @@ export default {
 .image:hover {
   border: 1px solid #ADF1D2;
 }
+
 
 
 @media (max-width: 47em) {
