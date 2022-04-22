@@ -1,12 +1,18 @@
 <template>
   <div id="app">
+      <header-bar></header-bar>
       <router-view></router-view>
   </div>
 </template>
 
 <script>
+import HeaderBar from './components/Header.vue';
+
 export default {
   name: 'app',
+  components:{
+    'header-bar' : HeaderBar,
+  },
   data: function() {
     return {
     };

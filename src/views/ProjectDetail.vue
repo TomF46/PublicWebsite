@@ -1,6 +1,5 @@
 <template>
   <div id="project-page" class="projects page project-detail">
-      <header-bar></header-bar>
     <div v-if="project">
         <div class="row center-xs">
       <div class="col-xs-12">
@@ -45,14 +44,10 @@
 
 <script>
 import projectsData from '../projects.json';
-import Header from '../components/Header.vue';
 
 export default {
   name: "Projects-Detail",
   props: ['slug'],
-  components: {
-    'header-bar' : Header
-  },
   data: () => {
     return {
       projects: projectsData

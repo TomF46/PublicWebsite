@@ -1,18 +1,5 @@
 <template>
   <div class="intro page dark-background">
-    <div class="row">
-        <div class="col-xs-12 col-sm-1">
-          <img class="logo" src="https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/InitialsLogoDarkScheme.png" />
-        </div>
-        <div class="nav col-xs-12 col-sm-11">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
-          </ul>
-        </div>
-      </div>
     <div class="intro-logo">
       <div class="row">
         <div class="col-xs-12">
@@ -73,40 +60,6 @@ export default {
         font-size: 2.5rem;
         color: #ADF1D2;
       };
-    }
-  }
-
-  .logo{
-    width: 40%;
-    margin-top: 10%;
-    margin-bottom: 5%;
-  }
-
-  .nav{
-    display: flex;
-        justify-content: center;
-        align-content: center;
-        flex-direction: column;
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-
-      li {
-        float: left;
-
-        a{
-          display: block;
-          padding: 8px 16px;
-          color: #ADF1D2;
-          text-decoration: none;
-        }
-        a:hover{
-          color: #31708e;
-        }
-      }
-
     }
   }
 

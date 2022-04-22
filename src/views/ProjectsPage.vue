@@ -1,6 +1,5 @@
 <template>
   <div id="projects-page" class="projects page">
-    <header-bar></header-bar>
     <div class="row center-xs">
       <div class="col-xs-12">
         <h1 class="page-title">Projects</h1>
@@ -38,12 +37,8 @@
 
 <script>
 import projectsData from '../projects.json';
-import Header from '../components/Header.vue';
 export default {
   name: "ProjectsPage",
-  components: {
-    'header-bar' : Header
-  },
   data: () => {
     return {
       projects: projectsData
