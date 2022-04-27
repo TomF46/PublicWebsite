@@ -2,7 +2,7 @@
   <div id="projects-page" class="projects page">
     <div class="row center-xs">
       <div class="col-xs-12">
-        <h1 class="page-title">Projects</h1>
+        <h1 class="page-title">Example Projects</h1>
       </div>
     </div>
     <div class="row">

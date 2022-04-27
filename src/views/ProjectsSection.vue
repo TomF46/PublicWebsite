@@ -32,7 +32,7 @@ export default {
 <style lang="scss">
 #projects-section{
   margin: 0 10%;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
 }
 
 </style>

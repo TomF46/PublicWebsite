@@ -62,7 +62,7 @@ body, html{
 
 .page-title{
   font-size: 2.5em;
-  margin: 0.8em 0;
+  margin: 0.2em 0;
   color: #ADF1D2;
 }
 
