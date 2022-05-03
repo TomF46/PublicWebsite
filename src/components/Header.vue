@@ -5,7 +5,7 @@
         </svg>
         <div class="row">
           <div class="col-xs-12 col-sm-1">
-            <img class="logo pointer" @click="navigate('/')" src="https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/InitialsLogoDarkScheme.png" />
+            <img class="logo pointer" @click="navigate('/')" src="https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/InitialsLogoDarkScheme.png" alt="Personal Logo" />
           </div>
           <div class="nav col-xs-12 col-sm-11 xs-hidden">
             <div class="row">

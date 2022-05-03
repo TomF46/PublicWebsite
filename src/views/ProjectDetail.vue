@@ -27,7 +27,7 @@
           </div>
           <div class="col-xs-12">
             <div class="row center-xs start-sm image-preview-row">
-              <img class="image" v-for="(image, i) in project.images"  :key="i" :src="image" @click="index = i" />
+              <img class="image" v-for="(image, i) in project.images"  :key="i" :src="image" @click="index = i" alt="project image" />
               <gallery :images="project.images" :index="index" @close="index = null"></gallery>
             </div>
           </div>

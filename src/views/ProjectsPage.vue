@@ -9,7 +9,7 @@
       <div v-for="(project, i) in projects" :key="i" class="col-xs-12 col-sm-6 col-md-4 project-card">
         <div class="row">
           <div class="col-xs-12" @click="navigate(`/projects/${project.slug}`)">
-            <crossfade-image  :topImage="project.images[0]" :bottomImage="project.images[1]" />
+            <crossfade-image  :topImage="project.images[0]" :bottomImage="project.images[1]" :title="project.name" />
           </div>
           <div class="col-xs-12">
             <h3 class="title pointer" @click="navigate(`/projects/${project.slug}`)">{{ project.name }}</h3>
@@ -23,9 +23,6 @@
           <div v-if="project.githubLink != null" class="col-xs-12">
             <a class="project-external-link" v-if="project.githubLink != null" :href="project.githubLink">Github page</a>
           </div>
-          <!-- <div class="col-xs-12 center-xs bottom-xs">
-            <button class="button" @click="navigate(`/projects/${project.slug}`)">More information</button>
-          </div> -->
         </div>
       </div>
     </div>

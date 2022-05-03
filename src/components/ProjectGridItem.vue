@@ -1,6 +1,6 @@
 <template>
     <div @click="navigate(item.link)">
-      <crossfade-image :topImage="item.images[0]" :bottomImage="item.images[1]" />
+      <crossfade-image :topImage="item.images[0]" :bottomImage="item.images[1]" :title="item.name" />
     </div>
 </template>
 

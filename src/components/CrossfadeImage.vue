@@ -1,13 +1,13 @@
 <template>
     <div class="crossfade pointer" :style="{ backgroundImage: 'url(' + bottomImage + ')' }">
-          <img :src="topImage" />
+          <img :src="topImage" :alt="title" />
       </div>
 </template>
 
 <script>
 export default {
   name: "crossfade-image",
-  props: ['topImage','bottomImage'],
+  props: ['topImage','bottomImage', 'title'],
   data: () => {
     return { };
   },
