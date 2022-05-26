@@ -8,9 +8,11 @@
     "images": [
       "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorp/MentiorCorpLogo.png",
       "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorp/MentiorCorpOverview.png",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorp/MentiorCorpApplicationReadOnly.PNG",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorp/MentiorCorpRetailDeashboard.PNG",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorp/MentiorCorpApplication.PNG"
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorp/AreaManagerDashboard.PNG",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorp/RetailManagerDashboard.PNG",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorp/Application.PNG",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorp/ApplicationReadOnly.PNG",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorp/YearOverview.PNG"
     ],
     "technology": [
       "Laravel",
