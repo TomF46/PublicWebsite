@@ -3,48 +3,48 @@
     "name": "Mentior Corp Finance Tool",
     "link": "/projects/finance-app",
     "images": [
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorpLogo.png",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorpOverview.png"
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorp/MentiorCorpLogo.png",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorp/MentiorCorpOverview.png"
     ]
   },
   {
     "name": "Untitled quiz app",
     "link": "/projects/untitled-quiz-app",
     "images": [
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QAppWebsiteLogo.png",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QAppOverview.png"
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QApp/QAppWebsiteLogo.png",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QApp/QAppOverview.png"
     ]
   },
   {
     "name": "WatchedIt",
     "link": "/projects/watchedIt",
     "images": [
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/WatchedItWebsiteLogo.png",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/WatchedItOverview.png"
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/WatchedIt/WatchedItWebsiteLogo.png",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/WatchedIt/WatchedItOverview.png"
     ]
   },
   {
     "name": "League Administration App",
     "link": "/projects/league-administration-app",
     "images": [
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/LeagueAdminWebsiteLogo.png",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/LeagueAppOverview.png"
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/LeagueApp/LeagueAdminWebsiteLogo.png",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/LeagueApp/LeagueAppOverview.png"
     ]
   },
   {
     "name": "Appathematics",
     "link": "/projects/appathematics",
     "images": [
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/AppathematicsWebsiteLogo.png",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/AppathemticsOverview.png"
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/Appathematics/AppathematicsWebsiteLogo.png",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/Appathematics/AppathemticsOverview.png"
     ]
   },
   {
     "name": "More",
     "link": "/projects",
     "images": [
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/ViewMoreBlue.png",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/ViewMoreBlueLarge.png"
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/Other/ViewMoreBlue.png",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/Other/ViewMoreBlueLarge.png"
     ]
   }
 ]

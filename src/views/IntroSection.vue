@@ -16,7 +16,7 @@
           <button class="button-right" @click="navigate('/projects')">Example projects</button>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-3">
-          <button @click="externalNavigate('https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/ThomasFylesCV.pdf')" download>Download CV</button>
+          <button @click="externalNavigate('https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/documents/ThomasFylesCV.pdf')" download>Download CV</button>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-3">
           <button class="button-left" @click="scrollToHash('#contact-page')">Find out more</button>

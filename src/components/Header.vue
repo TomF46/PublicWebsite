@@ -5,7 +5,7 @@
         </svg>
         <div class="row">
           <div class="col-xs-12 col-sm-1">
-            <img class="logo pointer" @click="navigate('/')" src="https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/InitialsLogoDarkScheme.png" alt="Personal Logo" />
+            <img class="logo pointer" @click="navigate('/')" src="https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/Other/InitialsLogoDarkScheme.png" alt="Personal Logo" />
           </div>
           <div class="nav col-xs-12 col-sm-11 xs-hidden">
             <div class="row">
@@ -13,7 +13,7 @@
                 <ul>
                   <li><a href="/">Home</a></li>
                   <li><a href="/projects">Projects</a></li>
-                  <li><a href="https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/ThomasFylesCV.pdf">CV</a></li>
+                  <li><a href="https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/documents/ThomasFylesCV.pdf">CV</a></li>
                   <li><a href="/#contact-page">About me</a></li>
                 </ul>
               </div>
@@ -49,7 +49,7 @@
               <a href="/projects">Projects</a>
             </div>
             <div class="col-xs-12 center-xs link">
-              <a href="https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/ThomasFylesCV.pdf">CV</a>
+              <a href="https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/documents/ThomasFylesCV.pdf">CV</a>
             </div>
             <div class="col-xs-12 center-xs link">
               <a @click="setMobileNavigation(false)" href="/#contact-page">About me</a>
