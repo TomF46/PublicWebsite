@@ -31,6 +31,15 @@
               <gallery :images="project.images" :index="index" @close="index = null"></gallery>
             </div>
           </div>
+          <div v-if="project.videos.length > 0" class="col-xs-12">
+            <h2 class="title">Videos</h2>
+            <div class="row">
+              <div v-for="(video, j) in project.videos" :key="j" class="col-xs-12 col-md-4 video-container">
+                <p class="video-title">{{video.title}}</p>
+                <iframe :src="video.src" :title="video.title" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </div>
@@ -104,6 +113,13 @@ export default {
 }
 .image:hover {
   border: 1px solid #ADF1D2;
+}
+
+.video-container{
+  .video-title{
+    color: #ADF1D2!important;
+  }
+  padding: 8px;
 }
 
 

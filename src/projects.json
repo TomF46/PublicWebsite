@@ -14,6 +14,7 @@
       "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorp/ApplicationReadOnly.PNG",
       "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorp/YearOverview.PNG"
     ],
+    "videos" : [],
     "technology": [
       "Laravel",
       "React",
@@ -37,6 +38,11 @@
       "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QApp/QAppQuizDetail.PNG",
       "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QApp/QAppQuiz.PNG",
       "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QApp/QAppChallenges.PNG"
+    ],
+    "videos" : [
+      {"title" : "Example flow", "link" : "https://youtu.be/8BrdqOnL3Bo", "src": "https://www.youtube.com/embed/8BrdqOnL3Bo"},
+      {"title" : "Search example", "link" : "https://youtu.be/ARLn0FD7s_U", "src": "https://www.youtube.com/embed/ARLn0FD7s_U"},
+      {"title" : "Quiz creation example", "link" : "https://youtu.be/50Did_lvNck", "src": "https://www.youtube.com/embed/50Did_lvNck"}
     ],
     "technology": [
       "Laravel",
@@ -64,6 +70,7 @@
       "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/WatchedIt/ExploreSearching.jpg",
       "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/WatchedIt/MyFilms.jpg"
     ],
+    "videos" : [],
     "technology": ["React", "React Native", "Redux"]
   },
   {
@@ -80,6 +87,7 @@
       "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/LeagueApp/LeagueAppTeams.PNG",
       "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/LeagueApp/LeagueAppDivision.PNG"
     ],
+    "videos" : [],
     "technology": [
       ".NET Core Api",
       "ER Core",
@@ -102,6 +110,7 @@
       "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/Appathematics/AppathemticsOverview.png",
       "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/Appathematics/appathematics.PNG"
     ],
+    "videos" : [],
     "technology": [
       "Vue",
       "PWA features",
