@@ -14,7 +14,14 @@
       "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorp/ApplicationReadOnly.PNG",
       "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/MentiorCorp/YearOverview.PNG"
     ],
-    "videos" : [],
+    "videos" : [
+      {"title" : "Admin - Employee creation", "link" : "https://www.youtube.com/watch?v=WCDHkjoU5WI", "src": "https://www.youtube.com/embed/WCDHkjoU5WI"},
+      {"title" : "Admin - Product creation", "link" : "https://www.youtube.com/watch?v=lNrl2kBRAVE", "src": "https://www.youtube.com/embed/lNrl2kBRAVE"},
+      {"title" : "Application year creation", "link" : "https://www.youtube.com/watch?v=1kHOFyMa_6A", "src": "https://www.youtube.com/embed/1kHOFyMa_6A"},
+      {"title" : "Retail manager application", "link" : "https://www.youtube.com/watch?v=YlqPyZKBnks", "src": "https://www.youtube.com/embed/YlqPyZKBnks"},
+      {"title" : "Area manager review", "link" : "https://www.youtube.com/watch?v=0WcvZku3F4A", "src": "https://www.youtube.com/embed/0WcvZku3F4A"},
+      {"title" : "Head office overview", "link" : "https://www.youtube.com/watch?v=opaKzj7ZPV4", "src": "https://www.youtube.com/embed/opaKzj7ZPV4"}
+    ],
     "technology": [
       "Laravel",
       "React",
