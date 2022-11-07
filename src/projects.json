@@ -41,11 +41,12 @@
     "images": [
       "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QApp/QAppWebsiteLogo.png",
       "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QApp/QAppOverview.png",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QApp/QAppDashboard.PNG",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QApp/QAppQuizDetail.PNG",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QApp/QAppQuiz.PNG",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QApp/Dashboard.PNG",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QApp/ExplorePage.PNG",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QApp/QuizDetailPage.PNG",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QApp/Question.PNG",
       "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QApp/VideoQuestion.PNG",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QApp/QAppChallenges.PNG"
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QApp/Challenges.PNG"
     ],
     "videos" : [
       {"title" : "Example flow", "link" : "https://youtu.be/8BrdqOnL3Bo", "src": "https://www.youtube.com/embed/8BrdqOnL3Bo"},
