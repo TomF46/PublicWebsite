@@ -24,6 +24,9 @@
             <button class="button" v-if="project.githubLink != null" @click="externalNavigate(project.githubLink)">
               Github
             </button>
+            <button class="button" v-if="project.readMeLink != null" @click="externalNavigate(project.readMeLink)">
+              Detailed ReadMe
+            </button>
           </div>
           <div class="col-xs-12">
             <div class="row center-xs start-sm image-preview-row">
