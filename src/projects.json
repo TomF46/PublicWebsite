@@ -80,18 +80,23 @@
     "videos": [
       {
         "title": "Example flow",
-        "link": "https://youtu.be/8BrdqOnL3Bo",
-        "src": "https://www.youtube.com/embed/8BrdqOnL3Bo"
+        "link": "https://youtu.be/FWkT055tgB4",
+        "src": "https://www.youtube.com/embed/FWkT055tgB4"
       },
       {
         "title": "Search example",
-        "link": "https://youtu.be/ARLn0FD7s_U",
-        "src": "https://www.youtube.com/embed/ARLn0FD7s_U"
+        "link": "https://youtu.be/a6fTz8RVsVI",
+        "src": "https://www.youtube.com/embed/a6fTz8RVsVI"
       },
       {
         "title": "Quiz creation example",
         "link": "https://youtu.be/50Did_lvNck",
         "src": "https://www.youtube.com/embed/50Did_lvNck"
+      },
+      {
+        "title": "Events",
+        "link": "https://youtu.be/fJd1TL-xnCE",
+        "src": "https://www.youtube.com/embed/fJd1TL-xnCE"
       }
     ],
     "technology": [
