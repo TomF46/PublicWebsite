@@ -1,5 +1,13 @@
 [
   {
+    "name": "Watched It",
+    "link": "/projects/watchedIt",
+    "images": [
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/WatchedItWeb/WatchedItLogo1.png",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/WatchedItWeb/WatchedItDetail.png"
+    ]
+  },
+  {
     "name": "Mentior Corp Finance Tool",
     "link": "/projects/finance-app",
     "images": [
@@ -13,14 +21,6 @@
     "images": [
       "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QApp/QAppWebsiteLogo.png",
       "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/QApp/QAppOverview.png"
-    ]
-  },
-  {
-    "name": "WatchedIt",
-    "link": "/projects/watchedIt",
-    "images": [
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/WatchedIt/WatchedItWebsiteLogo.png",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/WatchedIt/WatchedItOverview.png"
     ]
   },
   {
