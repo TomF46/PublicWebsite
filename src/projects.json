@@ -13,10 +13,9 @@
       "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/WatchedItWeb/HomeDesktop.png",
       "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/WatchedItWeb/FilmsDesktop.PNG",
       "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/WatchedItWeb/FilmDesktop.PNG",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/WatchedItWeb/PeopleTablet.PNG",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/WatchedItWeb/PersonMobile.PNG",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/WatchedItWeb/AddCreditMobile.PNG",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/WatchedItWeb/FilmCreditsMobile.PNG"
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/WatchedItWeb/PeopleTablet.png",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/WatchedItWeb/PersonMobile.png",
+      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/WatchedItWeb/FilmCreditsMobile.png"
     ],
     "videos": [],
     "technology": [".Net Core web api", "Entity framework core", "React", "Vite build system", "Redux"]
@@ -177,33 +176,6 @@
     ],
     "videos": [],
     "technology": ["React", "React Native", "Redux"]
-  },
-  {
-    "name": "League Administration App",
-    "slug": "league-administration-app",
-    "link": null,
-    "githubLink": "https://github.com/TomF46/LeagueSite",
-    "readMeLink": "https://github.com/TomF46/LeagueSite/blob/master/README.md",
-    "description": "This is a hockey (or football) league administration app which includes a .Net Core API and react front end, normal users can view league fixtures, results, and league tables as well as informarion about teams, special admin users can configure all this data in management view. The idea for this demonstration app came about as the websites used by most leagues are pretty bad and i wondered if i could make a better one.",
-    "images": [
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/LeagueApp/LeagueAdminWebsiteLogo.png",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/LeagueApp/LeagueAppOverview.png",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/LeagueApp/LeagueAppFixtures.PNG",
-      "https://personal-website-images-tom.s3.eu-west-1.amazonaws.com/LeagueApp/LeagueAppLeagueTable.PNG",
-      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/LeagueApp/LeagueAppTeams.PNG",
-      "https://personal-website-images-tom.s3-eu-west-1.amazonaws.com/LeagueApp/LeagueAppDivision.PNG"
-    ],
-    "videos": [],
-    "technology": [
-      ".NET Core Api",
-      "ER Core",
-      "React",
-      "Webpack / Babel",
-      "Bulma css framework",
-      "SASS",
-      "NUnit testing",
-      "JWT Authentication"
-    ]
   },
   {
     "name": "Appathematics",
